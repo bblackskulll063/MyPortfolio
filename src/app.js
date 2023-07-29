@@ -38,8 +38,10 @@ app.get('/contact', (req,res)=>{
 
 app.post('/contact',async(req,res) => {
     try {
+        // alert("thanks for submitting query");
         const userData = new User(req.body);
         await userData.save();
+        
         res.status(201).render("contact");
     } catch (error) {
         res.status(500).send(error);

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = "mongodb://127.0.0.1:27017/himDynamic"
+const db = "mongodb+srv://himanshuanand412:Heeman12345@cluster0.q1xmja0.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(db)
   .then(() =>{
     console.log('Connected!');
