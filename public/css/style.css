@@ -151,6 +151,7 @@ label {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  
 }
 
 .our-services {
@@ -244,38 +245,16 @@ label {
   font-weight: 500;
 }
 
-/* footer sections ends  */
-
-/* footer {
-  background: #dfece8;
-}
-
-footer p {
-  padding: 1rem 0;
-  margin: 0;
-  text-align: center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} */
-
+/* footer section  */
 .footer {
   background-color: #d66d6d;
   color: #000000;
-  padding: 20px;
+  padding: 60px ;
+  margin-top: -5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
-/* Social Media Icons */
-.social-icons {
-  margin-top: 10px;
-}
-
-
-.social-icons a {
-  color: rgb(0, 0, 0)909;
-  /* text-decoration: none; */
-  margin: 0 10px;
-  /* font-size: 1rem; */
-}
 
 /* media queries part starts here  */
 
